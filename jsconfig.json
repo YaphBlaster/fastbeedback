@@ -1,0 +1,12 @@
+// tsconfig.json or jsconfig.json
+// Import path aliases
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/components/*": ["components/*"],
+      "@/lib/*": ["lib/*"],
+      "@/styles/*": ["styles/*"]
+    }
+  }
+}
